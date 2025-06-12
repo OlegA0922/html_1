@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v43-latin-regular.woff2') format('woff2');
+}
+
+html {
+    font-size: 62.5%;
+  }
+  
+:root{
+    --text-color:rgb(177, 60, 60);
+    --bg-color:white;
+    --font-main: 'Open Sans';
+    --accent-color: blue;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--font-main);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+}
+main{
+    flex: 1;
+}
+a{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+h1{
+    font-weight:700;
+    font-size: 2.4rem;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+nav{
+    background-color:cadetblue;
+    border: 0.1rem solid black;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+footer{
+    background-color: lightgray;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 0.1rem solid lightblue ;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  
+
+  
